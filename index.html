@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robot" content="Index,follow">
+    <meta name="description" content="practo dental clinic">
+    <title>Practo dental clinic</title>
+    <style>
+        * {
+            margin: 20px 10px;
+            color: black;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        body {
+            border: 4px solid white;
+            border-radius: 3em;
+            background-color: #060630;
+
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 5px 10px;
+            margin: 19px 10px;
+            margin-top: auto;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .navbar li a {
+            padding: 5px 8px;
+            color: black;
+            font-weight: 700;
+            padding: 6px 7px;
+            font-size: 20px;
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(196, 109, 109);
+            font-size: 18px;
+            text-decoration: underline;
+        }
+
+        .navbar {
+            border-radius: 25px;
+            background-color: rgb(255, 255, 255);
+            color: #000;
+            border: 2px solid rgb(0, 0, 0);
+            /* border: 1px double white; */
+            outline: 2px solid white;
+            height: 53px;
+        }
+
+        .navbar input {
+            float: right;
+            margin-top: -20px ;
+            padding: 2px 8px;
+            border: 2px solid black;
+            outline: 2px solid rgb(255, 255, 255);
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+
+        .head {
+            font-size: 32px;
+            margin-top: 25px;
+            margin-left: 35px;
+            text-align: center;
+            border: 2px solid rgb(255, 251, 251);
+            /* outline: 2px solid black; */
+            border-radius: 20px;
+            width: fit-content;
+            padding: 5px 5px;
+            /* background-color: rgb(156, 56, 56); */
+            color: white;
+            float: right;
+            
+
+        }
+
+        .data1 {
+            width: 48%;
+            margin: 12px 38px;
+
+        }
+
+        .top1,
+        .top2 {
+            color: white;
+        }
+
+        .top1 {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .data2 {
+            margin: 20px auto;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+
+        .no1,
+        .no2,
+        .no3,
+        .no4,
+        .no5,
+        .no6,
+        .no7,
+        .no8,
+        .no9 {
+            border: 2px solid rgb(0, 0, 0);
+            outline: 2px solid white;
+            border-radius: 30px;
+            margin: 30px auto;
+            width: 71%;
+            padding: 19px 14px;
+            background-color: #F1DF9F;
+            box-sizing: border-box;
+        }
+        img{
+            width: 8%;
+            height: 12%;
+            border: 3px solid rgb(0, 0, 0);
+            outline: 2px solid white;
+            border-radius: 25px ;
+            margin: 12px 8px;
+            background-color: white;
+            padding: 12px 10px;
+           
+        }
+        .img1{
+            width: 25%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);
+           
+        }
+        .img2{
+            width: 15%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);
+
+        }
+        .img3{
+            width: 14%;
+            float: right;
+            margin-top: auto;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);
+        }
+        .img4{
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);
+        }
+        .img5{  
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);          
+
+        }
+        .img6{  
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);          
+
+        }
+        .img7{
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);            
+
+        }
+        .img8{  
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148);          
+
+        }
+        .img9{
+            width: 17%;
+            float: right;
+            padding: 0px 0px;
+            border: 2px solid rgb(161, 148, 148); 
+
+        } 
+        .form1{
+            background-color: rgb(203, 228, 112);
+            border: 2px solid black;
+            outline: 2px solid white;
+            border-radius: 25px;
+            padding: 25px 35px;
+            margin: auto;
+            width: 40%;
+        }
+        .note{
+            color: white;
+            /* padding: 15px 90px; */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/64/Practo_new_logo.png" alt="">
+        <span class="head">Dental Care</span>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href=" #">About</a></li>
+                <li><a href=" #">Services</a></li>
+                <li><a href=" #">Contact us</a></li>
+                <div class="search">
+                    <input type="text" class="search " placeholder="Search Box">
+                </div>
+                </ul>
+        </nav>
+    </header>
+    <div class="data1">
+        <div class="top1">
+            9 doctors available in Jamshedpur
+        </div>
+        <div class="top2">Book appointments with minimum wait-time & verified doctor details</div>
+    </div>
+    <div class="data2">
+        <div class="no1">
+            <img src="https://images1-fabric.practo.com/doctor/500930/dr-vishal-lodha-5ab3a2db93e18.JPG" alt="" class="img1">
+            <h2>Dr. Vishal Lodha</h2>
+            <b>Profile is claimed</b><br>
+            BDS<br> MDS - Conservative Dentistry and Endodontics
+            <details>
+                <summary>
+                    Endodontist, Implantologist, Dental Surgeon
+                    16 Years Experience Overall (15 years as specialist).</summary>
+                <br>Dr. Vishal Lodha is a Root Canal Specialist(ENDODONTIST). He firmly believes in conservative
+                dentistry so preservation & saving a tooth is his first priority rather than removal. He specializesin
+                doing Re-Root Canal Treatment of failed poorly done Root canals. He takes special interest in doing
+                esthetic treatment and smile designing and has done numerous full mouth rehabilitations with crowns,
+                veneers & tooth colored fillings. He has undertaken training in dental Implantology and done many
+                Impalnts.
+            </details>
+        </div>
+        <div class="no2">
+            <img src="https://images1-fabric.practo.com/dr-kamini-lata-1454564245-56b2e395db2df.jpg" alt="" class="img2">
+            <h2>Dr. Kamini Lata</h2> <b>Profile is claimed</b>
+            <br>
+            MDS - Paedodontics And Preventive Dentistry<br> BDS
+            <details>
+                <summary>
+                    Dentist, Pediatric Dentist, Dental Surgeon, Preventive Dentistry
+                    16 Years Experience Overall (15 years as specialist)</summary><br>
+                Dr. Kamini Lata is a Pediatric Dentist in Sakchi, Jamshedpur and has an experience of 5 years in this
+                field. Dr. Kamini Lata practices at Little Smile Kids And Family Dental Clinic in Sakchi, Jamshedpur.
+                She completed BDS from JSS Dental College Hospital in 2006 and MDS - Paedodontics And Preventive
+                Dentistry from The West Bengal University of Health Sciences (WBUHS), Kolkata in 2013.
+            </details>
+        </div>
+        <div class="no3">
+            <img src="https://images1-fabric.practo.com/dr-suman-1468819828-578c697407ca0.jpg" alt="" class="img3">
+            <h2>Dr. Suman Lodha</h2>
+            <b>Profile is claimed</b>
+            <br>
+
+            BDS<br> MDS - Oral Pathology andOral Microbiology
+            <details>
+                <summary>
+                    Dentist, Oral Pathologist</summary>
+                16 Years Experience Overall (9 years as specialist).
+                <br>
+                Dr. Suman Lodha is Oral and Maxillofacial Pathologist & Microbiologist.
+            </details>
+        </div>
+        <div class="no4">
+            <img src="http://www.dental-hub.in/wp-content/uploads/2020/01/dr-sebaschian.jpg" alt="" class="img4">
+            <h2>Dr. K V Sebastian</h2>
+            <b>Profile is claimed</b>
+            <br>
+
+            MDS - Oral & Maxillofacial Surgery<br> BDS
+            <details>
+                <summary>
+                    Oral And MaxilloFacial Surgeon</summary>
+                23 Years Experience Overall
+                <br>
+                Dr. Sebastian is a dental surgeon with specialization in oral and maxillofacial surgery.
+            </details>
+        </div>
+        <div class="no5">
+            <img src="https://www.genesiscare.com/content/dam/asset-migration/centres-and-staff/au-centres-and-staff/us-doctor-headshots/US_Oncology_Head_shot_GA_Mohammad_Asif_Khan.jpg" alt="" class="img5">
+            <h2>Dr. Md Asif Khan</h2>
+
+            <b>Profile is claimed</b><br>
+            BDS<br> MDS - Prosthodontics
+<details><summary>
+            Prosthodontist, Dentist, Cosmetic/Aesthetic Dentist, Implantologist
+            11 Years Experience Overall (10 years as specialist)</summary><br>
+            Dr. Md Asif Khan is a Prosthodontist,Dentist and Cosmetic/Aesthetic Dentist in Sakchi, Jamshedpur and has an
+            experience of 11 years in these fields. Dr. Md Asif Khan practices at Rumana Dental Clinic in Sakchi,
+            Jamshedpur. He completed BDS from KLE Vishwanath Katti Institute of Dental Sciences,Belgaum in 2010 and MDS
+            - Prosthodontics from A.M.E's Dental College in 2015.
+
+            Some of the services provided by the doctor are: Dental Implant Fixing,Immediate Dentures,BPS Dentures
+            Fixing,Veneers / Laminates and Full Denture (Acrylic) etc.</details>
+        </div>
+        <div class="no6">
+            <img src="http://www.dental-hub.in/wp-content/uploads/2020/01/drdeepak.jpg" alt="" class="img6">
+            <h2>Dr. Deepak Kedia</h2>
+            <b>Profile is claimed</b>
+            <br>
+            BDS
+            <br>
+            Dentist
+            <br><details> <summary>
+            24 Years Experience Overall</summary><br>
+            Dr. Deepak Kedia is a Dentist in Bistupur, Jamshedpur and has an experience of 24 years in this field. Dr.
+            Deepak Kedia practices at Dental Hub in Bistupur, Jamshedpur,Healthy Smile Dental Clinic Bistupur in
+            Bistupur, Jamshedpur and Jugsalai in Bistupur, Jamshedpur. He completed BDS from M S Ramaiah Medical
+            College, Bangalore in 1998.
+<br>
+            He is a member of Indian Dental Association.</details>
+        </div>
+        <div class="no7">
+            <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t39.30808-1/248156840_900876920632563_7969854951962272294_n.jpg?stp=dst-jpg_s148x148&_nc_cat=101&ccb=1-7&_nc_sid=1eb0c7&_nc_ohc=WCVEknJrCJwAX-MW0z6&_nc_ht=scontent.fpat2-2.fna&oh=00_AT94ViVgmAAheBhzshZKFPPSs-s-Zzgt4nMuGHTTIzCRsw&oe=63062739" alt="" class="img7">
+            <h2>Dr. Manisha Sharma</h2>
+            <b>Profile is claimed</b><br>
+            BDS<br>
+            Dental Surgeon<br>
+            <details><summary>
+            9 Years Experience Overall</summary><br>
+            Dr. Manisha Sharma is a Dental Surgeon in Golmuri, Jamshedpur and has an experience of 9 years in this
+            field. Dr. Manisha Sharma practices at Dental Wellness Centre in Golmuri, Jamshedpur. She completed BDS from
+            Awadh Dental College, Jamshedpur in 2013.</details>
+        </div>
+        <div class="no8">
+            <img src="https://www.practo.com/bundles/practopractoapp/images/profile.png" alt="" class="img8">
+
+            <h2>Dr. Nilam R Lodha</h2>
+            <b>Profile is claimed</b><br>
+            BDS
+            <br>
+            Dentist<br>
+            <details><summary>
+            8 Years Experience Overall</summary><br>
+            Dr. Nilam R Lodha is a Dentist in Bistupur, Jamshedpur and has an experience of 8 years in this field. Dr.
+            Nilam R Lodha practices at Family Dental Care in Bistupur, Jamshedpur. She completed BDS from Utkal
+            University, Orissa, India in 2014.</details>
+        </div>
+        <div class="no9">
+            <img src="https://d5ln38p3754yc.cloudfront.net/presenters/4178763/medium/1588254595-ec1942fdee95fb60.jpg?1588254595 " alt="" class="img9">
+            <h2> Dr. Anand Pandey</h2>
+            <b> Profile is claimed</b><br>
+            BDS
+            <br>
+            Dentist<br><details><summary>
+            8 Years Experience Overall</summary><br>
+            Dr. anand pandey is a Restorative Dentist,Cosmetic/Aesthetic Dentist, Endodontist,implantologist in
+            jamshedpur, and has an experience of 10 years in these fields.</details>
+        </div>
+    </div>
+    <hr>
+    <br>
+     
+    <hr>
+    <div class="form">
+        <div class="note">
+            Note: Kindly fill the form to experience our facilities
+        </div>
+        <form action="act.php" class="form1">
+            <div>
+            <label for="fname">First name :</label>
+            <input type="text" name="fname" id="firstname"></div>
+            <div><label for="lname">Last name :</label>
+            <input type="text" name="lname" id="lastname"></div>
+            <div>
+            <label for="ph_no">Mobile number :</label>
+            <input type="number" class="ph_no" id="ph_numb">
+        </div>
+            <div>
+            <label for="gender">Male</label>
+          
+            <input type="radio" name="gender" id="Male">
+            
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="Female">
+            <label for="gender">Others</label>
+            <input type="radio" name="gender" id="Others">
+        </div>
+        <div class="fm">
+            
+                <label for="dr">Choose the dr. with whome you want to consult :</label>
+                <select name="dr" id="name_dr">
+                <option value="Dr. Vishal Lodha">Dr. Vishal Lodha</option>
+                <option value="Dr. Kamini Lata">Dr. Kamini Lata</option>
+                <option value="Dr. Suman Lodha">Dr. Suman Lodha</option>
+                <option value="Dr. K V Sebastian">Dr. K V Sebastian</option>
+                <option value="Dr. Md Asif Khan">Dr. Md Asif Khan</option>
+                <option value="Dr. Deepak Kedia">Dr. Deepak Kedia</option>
+                <option value="Dr. Manisha Sharma">Dr. Manisha Sharma</option>
+                <option value="Dr. Nilam R Lodha">Dr. Nilam R Lodha</option>
+                <option value="Dr. Anand Pandey">Dr. Anand Pandey</option>
+            </select>
+            <br>
+            <label for="timming">Select the convienent timming</label>
+            <select name="timming" id="time">
+            <option value="4pm-5pm">4pm - 5pm</option>
+            <option value="5pm-6pm">5pm - 6pm</option>
+            <option value="6pm-7pm">6pm - 7pm</option>
+            <option value="7pm-8pm">7pm - 8pm</option>
+            <option value="8pm-9pm">8pm - 9pm</option>
+            <option value="9pm-10pm">9pm - 10pm</option>
+            </select>
+            <br>
+            <button type="button" onclick="alert('thank you for filling the form within 6 hours our customer support will contact you')"> submit</button>
+        
+        </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
